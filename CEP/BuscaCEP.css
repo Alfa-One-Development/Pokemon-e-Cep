@@ -1,0 +1,41 @@
+body {
+    background-color: darkcyan;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    justify-items: center;
+}
+
+input, button {
+    background-color: mediumaquamarine;
+    border-radius: 5vw;
+    border: solid black 0.15vw;
+}
+
+section {
+    border: 1px solid #ddd;
+    background-color: aquamarine;
+    padding: 2.5%;
+    text-align: center;
+    border-radius: 5vw;
+    width: 50%;
+}
+
+div {
+    border: 1px solid #ddd;
+    background-color: aquamarine;
+    padding: 5%;
+    text-align: center;
+    border-radius: 5vw;
+    margin: 2.5%;
+}
+
+footer {
+    border: 1px solid #ddd;
+    background-color: aquamarine;
+    padding: 5%;
+    text-align: center;
+    border-radius: 5vw;
+    margin: 2.5%;
+}

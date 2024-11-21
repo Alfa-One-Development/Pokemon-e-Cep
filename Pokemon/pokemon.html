@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pokemon.css">
+    <script src="pokemonfind.js"></script>
+    <title>PokeInfo</title>
+  
+  </head>
+
+  <body>
+    <section>
+    <h1>Search Pokemon</h1>
+    <input type="text" id="pokemonName" placeholder="DIGITE O NOME OU ID DO POKEMON" />
+    <button onclick="fetchPokemon()">SEARCH</button>
+    </section>
+
+  <section>
+    <p id="loadingMessage" style="display: none;">Loading...</p>
+    <div id="errorMessage" style="display: none;"></div>
+
+    <div class="pokemon-inf" id="pokemonInfo" style="display: none;">
+      <h2 id="pokemonTitle"></h2>
+      <img id="pokemonImage" src="" alt="Imagem del Pokemon" />
+      <img id="pokemonImageShiny" src="" alt="Imagem del Pokemon" />
+      <p><strong>Height: </strong> <span id="pokemonHeight"></span> meters</p>
+      <p><strong>Weight: </strong> <span id="pokemonWeight"></span> kilograms</p>
+      <p><strong>Abilities: </strong> <span id="pokemonAbilities"></span></p>
+      <p><strong>Types: </strong> <span id="pokemonTypes"></span></p>
+    </div>
+    </section>
+
+    <footer>
+      <a href="../index.html">Voltar para o Index</a><br />
+    </footer>
+   
+  </body>
+</html>

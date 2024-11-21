@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BuscaCEP.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section>
+    <h1>Buscar Endereço por CEP</h1>
+    <input type="text" id="cep" placeholder="Digite o CEP" />
+    <button onclick="buscarEndereco()">Buscar</button>
+    </section>
+
+    <div id="enderecoInfo" class="enderecoInfo" style="display: none">
+      <p><strong>Logradouro: </strong><span id="logradouro"></span></p>
+      <p><strong>Bairro: </strong><span id="bairro"></span></p>
+      <p><strong>Cidade: </strong><span id="localidade"></span></p>
+      <p><strong>Estado: </strong><span id="uf"></span></p>
+      <p><strong>Região: </strong><span id="regiao"></span></p>
+      <p id="erroMensagem" style="color: red; display: none"></p>
+    </div>
+
+<footer>
+  <a href="../index.html">Voltar para o Index</a><br />
+</footer>
+
+    <script src="BuscaCEP.js">
+    </script>
+  </body>
+</html>
